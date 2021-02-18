@@ -1,0 +1,12 @@
+Stage 5/5: Gamify it
+Description
+As we did in the previous stage, we are going to make application interactive. Just add two buttons: one should toggle pause/resume, another should start evolution over again, with a different initial state.
+ 
+After this, you will have an application that provides a comfortable experience of the Game of Life. Optionally you can add more features:
+increasing/decreasing evolution speed (use buttons or JSlider)
+color of cells (use JColorChooser or JComboBox)
+setting size of the new field (use JTextField or JDialog)
+save/load (use JFileChooser)
+and so on.
+For the testing reasons, you need to set the name of each component using the method component.setName(String name).
+Name your labels with names "GenerationLabel" and "AliveLabel". Name your buttons with names "PlayToggleButton" and "ResetButton".
